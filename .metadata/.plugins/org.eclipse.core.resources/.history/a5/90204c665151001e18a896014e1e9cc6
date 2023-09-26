@@ -1,0 +1,26 @@
+package org.test;
+
+import org.testng.annotations.Test;
+
+public class Testproj4 {
+	
+	@Test
+	
+	public void demo3() {
+		System.out.println("College 1 loggedin");
+		
+	}
+	@Test
+	
+	public void demo4() {
+		
+		System.out.println("College 2 loggedin");
+		
+	}
+	
+	@Test
+	public void demo5() {
+		System.out.println("College 3 loggedin");
+		
+	}
+}

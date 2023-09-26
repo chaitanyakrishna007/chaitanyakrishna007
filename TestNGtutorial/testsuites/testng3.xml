@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StudentLogins" parallel="tests" thread-count="5">
+	
+	<parameter name="URL" value="qaclickacademy.com" />
+	<test name="Parameters Page">
+
+	
+		<classes>
+			<class name="org.test.Testproj2">
+
+				<methods>
+
+					<include name="org.test.Testproj1" />
+					
+					
+				</methods>
+
+			</class>
+
+
+		</classes>
+	</test>
+
+	<test name="College Login">
+		<classes>
+			<class name="org.test.Testproj4" />
+			<class name="org.test.Testproj3" />
+			<class name="org.test.Testproj5" />
+		</classes>
+
+	</test>
+</suite> 

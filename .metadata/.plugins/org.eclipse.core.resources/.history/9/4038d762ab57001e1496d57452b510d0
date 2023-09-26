@@ -1,0 +1,28 @@
+package krishnaselenium.stepDefinitions;
+
+import java.io.IOException;
+
+import io.cucumber.java.en.Given;
+import krishnaselenium.SeleniumAutomationFramework.LandingPage;
+import krishnaselenium.SeleniumAutomationFramework.ProductsCatalougePage;
+import krishnaselenium.TestComponents.BaseTest;
+
+public class StepDefinitionImpl extends BaseTest{
+	
+	LandingPage loginPage;
+	
+	@Given("I landed on the login page")
+	public void i_landed_on_the_login_page() throws IOException {
+		
+		loginPage = launchApp();
+	}
+	
+	@Given ("^logged in with userName (.+) and password (.+)$")
+	public void logged_in_username_and_password(String username,String password) {
+		ProductsCatalougePage prodcart = loginPage.loginActions(username,password); // logged in to application
+
+		
+	}
+	
+
+}

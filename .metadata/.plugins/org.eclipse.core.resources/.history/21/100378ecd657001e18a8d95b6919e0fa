@@ -1,0 +1,18 @@
+@tag
+Feature: Purchase the Order from Ecommerce Website
+  I want to use this template for my feature file
+  
+  Background:
+  Given I landed on the login page
+  
+
+  @tag1
+  Scenario Outline: Positive Test for Purchasing the Order
+    Given logged in with userName <name> and password <password>
+    When I add product<productname> to cart
+    And checkout <productname> and submit the order
+    Then select the country and click on ok
+
+    Examples: 
+      | name  						| password	| productname |
+      | vamshikrish@gmail |Vamshi@123	|	ZARA COAT 3 |							

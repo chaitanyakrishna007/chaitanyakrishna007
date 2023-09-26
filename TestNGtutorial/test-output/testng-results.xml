@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T12:31:31 IST" name="StudentLogins" finished-at="2023-09-13T12:31:32 IST" duration-ms="477">
+    <groups>
+      <group name="SMOKE">
+        <method signature="Testproj5.demo7()[pri:0, instance:org.test.Testproj5@4d1c005e]" name="demo7" class="org.test.Testproj5"/>
+        <method signature="Testproj4.demo4()[pri:0, instance:org.test.Testproj4@221a3fa4]" name="demo4" class="org.test.Testproj4"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test started-at="2023-09-13T12:31:31 IST" name="Parameters Page" finished-at="2023-09-13T12:31:31 IST" duration-ms="41">
+    </test> <!-- Parameters Page -->
+    <test started-at="2023-09-13T12:31:31 IST" name="College Login" finished-at="2023-09-13T12:31:32 IST" duration-ms="477">
+      <class name="org.test.Testproj5">
+        <test-method signature="demo10(java.lang.String)[pri:0, instance:org.test.Testproj5@4d1c005e]" started-at="2023-09-13T12:31:31 IST" name="demo10" finished-at="2023-09-13T12:31:31 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo10 -->
+        <test-method signature="demo7()[pri:0, instance:org.test.Testproj5@4d1c005e]" started-at="2023-09-13T12:31:31 IST" name="demo7" finished-at="2023-09-13T12:31:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo7 -->
+        <test-method signature="demo9()[pri:0, instance:org.test.Testproj5@4d1c005e]" started-at="2023-09-13T12:31:31 IST" name="demo9" finished-at="2023-09-13T12:31:31 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo9 -->
+        <test-method signature="demo11(java.lang.String)[pri:0, instance:org.test.Testproj5@4d1c005e]" started-at="2023-09-13T12:31:32 IST" name="demo11" finished-at="2023-09-13T12:31:32 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo11 -->
+        <test-method signature="demo6()[pri:0, instance:org.test.Testproj5@4d1c005e]" started-at="2023-09-13T12:31:32 IST" name="demo6" finished-at="2023-09-13T12:31:32 IST" depends-on-methods="org.test.Testproj5.demo7" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+      </class> <!-- org.test.Testproj5 -->
+      <class name="org.test.Testproj3">
+        <test-method signature="demo3()[pri:0, instance:org.test.Testproj3@451001e5]" started-at="2023-09-13T12:31:31 IST" name="demo3" finished-at="2023-09-13T12:31:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method signature="demo4(java.lang.String,java.lang.String)[pri:0, instance:org.test.Testproj3@451001e5]" started-at="2023-09-13T12:31:31 IST" name="demo4" data-provider="getData" finished-at="2023-09-13T12:31:31 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo4(java.lang.String,java.lang.String)[pri:0, instance:org.test.Testproj3@451001e5]" started-at="2023-09-13T12:31:31 IST" name="demo4" data-provider="getData" finished-at="2023-09-13T12:31:31 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo4(java.lang.String,java.lang.String)[pri:0, instance:org.test.Testproj3@451001e5]" started-at="2023-09-13T12:31:31 IST" name="demo4" data-provider="getData" finished-at="2023-09-13T12:31:31 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo5()[pri:0, instance:org.test.Testproj3@451001e5]" started-at="2023-09-13T12:31:31 IST" name="demo5" finished-at="2023-09-13T12:31:31 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+      </class> <!-- org.test.Testproj3 -->
+      <class name="org.test.Testproj4">
+        <test-method is-config="true" signature="demo5()[pri:0, instance:org.test.Testproj4@221a3fa4]" started-at="2023-09-13T12:31:31 IST" name="demo5" finished-at="2023-09-13T12:31:31 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method signature="demo3()[pri:0, instance:org.test.Testproj4@221a3fa4]" started-at="2023-09-13T12:31:31 IST" name="demo3" finished-at="2023-09-13T12:31:31 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method signature="demo4()[pri:0, instance:org.test.Testproj4@221a3fa4]" started-at="2023-09-13T12:31:31 IST" name="demo4" finished-at="2023-09-13T12:31:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- org.test.Testproj4 -->
+    </test> <!-- College Login -->
+  </suite> <!-- StudentLogins -->
+</testng-results>
